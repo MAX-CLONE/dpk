@@ -26,7 +26,7 @@ call = cl
 Dpk = [cl]
 mid = cl.profile.mid
 DpkBot=[mid]
-Owner=["ud296655acef67cbd5e8208e63629f78b"]
+Owner=["u4862fe4b182b2fd194a3108e2f3662e8"]
 DpkFamily = DpkBot + Dpk + Owner
 
 contact = cl.getProfile()
@@ -80,7 +80,7 @@ Wait = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "ud296655acef67cbd5e8208e63629f78b":True #MID ADMIN
+        "u4862fe4b182b2fd194a3108e2f3662e8":True #MID ADMIN
     },
 }
 
@@ -892,7 +892,7 @@ def LINE_ARIF_USER(arif):
                         elif dpkText.lower() == "speed":
                             if user in DpkFamily or user in Wait["Admin"]:
                                 no = time.time()
-                                cl.sendText("u65224f4e8812136f01b25275a54b5aef", ' ')
+                                cl.sendText("ue86841a3982b7da6e8094f3c218d79b6", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
